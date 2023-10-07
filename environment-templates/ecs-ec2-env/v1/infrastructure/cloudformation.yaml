@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: A stack for deploying containerized applications on EC2 clusters.
-             This stack runs containers in a public or private VPC subnet. 
+             This stack runs containers in a public or private VPC subnets . 
 
 Mappings:
   # The VPC and subnet configuration is passed in via the environment spec.
